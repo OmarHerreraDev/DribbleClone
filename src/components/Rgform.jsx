@@ -9,6 +9,7 @@ export default function Rgform({ onBackClick }) {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     handleRegister(email, password);
+    window.location.href = "/Main";
   };
 
   return (
